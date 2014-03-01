@@ -12,3 +12,6 @@ in this program are a bit obsolete libraries. It should be re-written
 for 'mail' library and make it compatible with ruby 2.0 to work with
 MacOS 10.9.
 
+The source codes are put into github, under the permission of original
+author, hoping someone to re-write them to be compatible with newest
+MacOS X.
