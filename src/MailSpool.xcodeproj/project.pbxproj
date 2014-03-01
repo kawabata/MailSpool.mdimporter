@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C05A19C06CAA52B00D84F6F /* GetMetadataForFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C05A19B06CAA52B00D84F6F /* GetMetadataForFile.c */; };
+		8D576312048677EA00EA77CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B6FE84183AC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
+		C88FB7D8067446EC006EBB30 /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = C88FB7D7067446EC006EBB30 /* schema.xml */; };
+		C88FB7E40674480E006EBB30 /* schema.strings in Resources */ = {isa = PBXBuildFile; fileRef = C88FB7E30674480E006EBB30 /* schema.strings */; };
+		F423340B082A63D5006437FB /* address.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E1082A63C3006437FB /* address.rb */; };
+		F423340C082A63D5006437FB /* base64.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E2082A63C3006437FB /* base64.rb */; };
+		F423340D082A63D5006437FB /* compat.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E3082A63C3006437FB /* compat.rb */; };
+		F423340E082A63D5006437FB /* config.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E4082A63C3006437FB /* config.rb */; };
+		F423340F082A63D5006437FB /* encode.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E5082A63C3006437FB /* encode.rb */; };
+		F4233410082A63D5006437FB /* header.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E6082A63C3006437FB /* header.rb */; };
+		F4233411082A63D5006437FB /* info.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E7082A63C3006437FB /* info.rb */; };
+		F4233412082A63D5006437FB /* loader.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E8082A63C3006437FB /* loader.rb */; };
+		F4233413082A63D5006437FB /* mail.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333E9082A63C3006437FB /* mail.rb */; };
+		F4233414082A63D5006437FB /* mailbox.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333EA082A63C3006437FB /* mailbox.rb */; };
+		F4233415082A63D5006437FB /* mbox.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333EB082A63C3006437FB /* mbox.rb */; };
+		F4233416082A63D5006437FB /* net.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333EC082A63C3006437FB /* net.rb */; };
+		F4233417082A63D5006437FB /* obsolete.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333ED082A63C3006437FB /* obsolete.rb */; };
+		F4233418082A63D5006437FB /* parser.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333EE082A63C3006437FB /* parser.rb */; };
+		F4233419082A63D5006437FB /* port.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333EF082A63C3006437FB /* port.rb */; };
+		F423341A082A63D5006437FB /* scanner.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333F0082A63C3006437FB /* scanner.rb */; };
+		F423341B082A63D5006437FB /* scanner_r.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333F1082A63C3006437FB /* scanner_r.rb */; };
+		F423341C082A63D5006437FB /* stringio.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333F2082A63C3006437FB /* stringio.rb */; };
+		F423341D082A63D5006437FB /* textutils.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333F3082A63C3006437FB /* textutils.rb */; };
+		F423341E082A63D5006437FB /* tmail.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333F4082A63C3006437FB /* tmail.rb */; };
+		F423341F082A63D5006437FB /* utils.rb in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F42333F5082A63C3006437FB /* utils.rb */; };
+		F4233426082A6422006437FB /* tmail.rb in Resources */ = {isa = PBXBuildFile; fileRef = F4233424082A63F3006437FB /* tmail.rb */; };
+		F4328D2B082D05C600A674A8 /* ymhtml.rb in Resources */ = {isa = PBXBuildFile; fileRef = F4328D2A082D05C600A674A8 /* ymhtml.rb */; };
+		F4328DB0082D1DB700A674A8 /* COPYING in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F4328DA7082D1C8900A674A8 /* COPYING */; };
+		F4328DB1082D1DB700A674A8 /* README.en in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F4328DAE082D1D5A00A674A8 /* README.en */; };
+		F4328DB2082D1DB700A674A8 /* README.ja in tmailモジュールをコピー */ = {isa = PBXBuildFile; fileRef = F4328DAC082D1D5200A674A8 /* README.ja */; };
+		F45ED0B20828FBA20023CB6E /* GetMetadataForFile.rb in Resources */ = {isa = PBXBuildFile; fileRef = F45ED0B10828FBA20023CB6E /* GetMetadataForFile.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F42333D9082A61C6006437FB /* tmailモジュールをコピー */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = tmail;
+			dstSubfolderSpec = 7;
+			files = (
+				F4328DB0082D1DB700A674A8 /* COPYING in tmailモジュールをコピー */,
+				F4328DB1082D1DB700A674A8 /* README.en in tmailモジュールをコピー */,
+				F4328DB2082D1DB700A674A8 /* README.ja in tmailモジュールをコピー */,
+				F423340B082A63D5006437FB /* address.rb in tmailモジュールをコピー */,
+				F423340C082A63D5006437FB /* base64.rb in tmailモジュールをコピー */,
+				F423340D082A63D5006437FB /* compat.rb in tmailモジュールをコピー */,
+				F423340E082A63D5006437FB /* config.rb in tmailモジュールをコピー */,
+				F423340F082A63D5006437FB /* encode.rb in tmailモジュールをコピー */,
+				F4233410082A63D5006437FB /* header.rb in tmailモジュールをコピー */,
+				F4233411082A63D5006437FB /* info.rb in tmailモジュールをコピー */,
+				F4233412082A63D5006437FB /* loader.rb in tmailモジュールをコピー */,
+				F4233413082A63D5006437FB /* mail.rb in tmailモジュールをコピー */,
+				F4233414082A63D5006437FB /* mailbox.rb in tmailモジュールをコピー */,
+				F4233415082A63D5006437FB /* mbox.rb in tmailモジュールをコピー */,
+				F4233416082A63D5006437FB /* net.rb in tmailモジュールをコピー */,
+				F4233417082A63D5006437FB /* obsolete.rb in tmailモジュールをコピー */,
+				F4233418082A63D5006437FB /* parser.rb in tmailモジュールをコピー */,
+				F4233419082A63D5006437FB /* port.rb in tmailモジュールをコピー */,
+				F423341A082A63D5006437FB /* scanner.rb in tmailモジュールをコピー */,
+				F423341B082A63D5006437FB /* scanner_r.rb in tmailモジュールをコピー */,
+				F423341C082A63D5006437FB /* stringio.rb in tmailモジュールをコピー */,
+				F423341D082A63D5006437FB /* textutils.rb in tmailモジュールをコピー */,
+				F423341E082A63D5006437FB /* tmail.rb in tmailモジュールをコピー */,
+				F423341F082A63D5006437FB /* utils.rb in tmailモジュールをコピー */,
+			);
+			name = "tmailモジュールをコピー";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FB77B6FE84183AC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		2C05A19B06CAA52B00D84F6F /* GetMetadataForFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetMetadataForFile.c; sourceTree = "<group>"; };
+		8D576316048677EA00EA77CD /* MailSpool.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailSpool.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		C88FB7D7067446EC006EBB30 /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
+		C88FB7DB0674470F006EBB30 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/schema.strings; sourceTree = "<group>"; };
+		F42333E1082A63C3006437FB /* address.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = address.rb; sourceTree = "<group>"; };
+		F42333E2082A63C3006437FB /* base64.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = base64.rb; sourceTree = "<group>"; };
+		F42333E3082A63C3006437FB /* compat.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = compat.rb; sourceTree = "<group>"; };
+		F42333E4082A63C3006437FB /* config.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = config.rb; sourceTree = "<group>"; };
+		F42333E5082A63C3006437FB /* encode.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = encode.rb; sourceTree = "<group>"; };
+		F42333E6082A63C3006437FB /* header.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = header.rb; sourceTree = "<group>"; };
+		F42333E7082A63C3006437FB /* info.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = info.rb; sourceTree = "<group>"; };
+		F42333E8082A63C3006437FB /* loader.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = loader.rb; sourceTree = "<group>"; };
+		F42333E9082A63C3006437FB /* mail.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mail.rb; sourceTree = "<group>"; };
+		F42333EA082A63C3006437FB /* mailbox.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mailbox.rb; sourceTree = "<group>"; };
+		F42333EB082A63C3006437FB /* mbox.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mbox.rb; sourceTree = "<group>"; };
+		F42333EC082A63C3006437FB /* net.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = net.rb; sourceTree = "<group>"; };
+		F42333ED082A63C3006437FB /* obsolete.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = obsolete.rb; sourceTree = "<group>"; };
+		F42333EE082A63C3006437FB /* parser.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = parser.rb; sourceTree = "<group>"; };
+		F42333EF082A63C3006437FB /* port.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = port.rb; sourceTree = "<group>"; };
+		F42333F0082A63C3006437FB /* scanner.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = scanner.rb; sourceTree = "<group>"; };
+		F42333F1082A63C3006437FB /* scanner_r.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = scanner_r.rb; sourceTree = "<group>"; };
+		F42333F2082A63C3006437FB /* stringio.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = stringio.rb; sourceTree = "<group>"; };
+		F42333F3082A63C3006437FB /* textutils.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = textutils.rb; sourceTree = "<group>"; };
+		F42333F4082A63C3006437FB /* tmail.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tmail.rb; sourceTree = "<group>"; };
+		F42333F5082A63C3006437FB /* utils.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = utils.rb; sourceTree = "<group>"; };
+		F4233424082A63F3006437FB /* tmail.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = tmail.rb; sourceTree = "<group>"; };
+		F4328D2A082D05C600A674A8 /* ymhtml.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ymhtml.rb; sourceTree = "<group>"; };
+		F4328DA7082D1C8900A674A8 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		F4328DAC082D1D5200A674A8 /* README.ja */ = {isa = PBXFileReference; fileEncoding = 3; lastKnownFileType = text; path = README.ja; sourceTree = "<group>"; };
+		F4328DAE082D1D5A00A674A8 /* README.en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.en; sourceTree = "<group>"; };
+		F45ED0B10828FBA20023CB6E /* GetMetadataForFile.rb */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = GetMetadataForFile.rb; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */,
+				C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MailSpool */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = MailSpool;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C86B05260671AA6E00DD9006 /* CoreServices.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4328D2A082D05C600A674A8 /* ymhtml.rb */,
+				F4233424082A63F3006437FB /* tmail.rb */,
+				F42333E0082A63C2006437FB /* tmail */,
+				C88FB7E30674480E006EBB30 /* schema.strings */,
+				C88FB7D7067446EC006EBB30 /* schema.xml */,
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2C05A19B06CAA52B00D84F6F /* GetMetadataForFile.c */,
+				F45ED0B10828FBA20023CB6E /* GetMetadataForFile.rb */,
+				08FB77B6FE84183AC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* MailSpool.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42333E0082A63C2006437FB /* tmail */ = {
+			isa = PBXGroup;
+			children = (
+				F4328DAC082D1D5200A674A8 /* README.ja */,
+				F4328DAE082D1D5A00A674A8 /* README.en */,
+				F4328DA7082D1C8900A674A8 /* COPYING */,
+				F42333E1082A63C3006437FB /* address.rb */,
+				F42333E2082A63C3006437FB /* base64.rb */,
+				F42333E3082A63C3006437FB /* compat.rb */,
+				F42333E4082A63C3006437FB /* config.rb */,
+				F42333E5082A63C3006437FB /* encode.rb */,
+				F42333E6082A63C3006437FB /* header.rb */,
+				F42333E7082A63C3006437FB /* info.rb */,
+				F42333E8082A63C3006437FB /* loader.rb */,
+				F42333E9082A63C3006437FB /* mail.rb */,
+				F42333EA082A63C3006437FB /* mailbox.rb */,
+				F42333EB082A63C3006437FB /* mbox.rb */,
+				F42333EC082A63C3006437FB /* net.rb */,
+				F42333ED082A63C3006437FB /* obsolete.rb */,
+				F42333EE082A63C3006437FB /* parser.rb */,
+				F42333EF082A63C3006437FB /* port.rb */,
+				F42333F0082A63C3006437FB /* scanner.rb */,
+				F42333F1082A63C3006437FB /* scanner_r.rb */,
+				F42333F2082A63C3006437FB /* stringio.rb */,
+				F42333F3082A63C3006437FB /* textutils.rb */,
+				F42333F4082A63C3006437FB /* tmail.rb */,
+				F42333F5082A63C3006437FB /* utils.rb */,
+			);
+			path = tmail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D57630E048677EA00EA77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* MailSpool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AD29080859BEB900BBC451 /* Build configuration list for PBXNativeTarget "MailSpool" */;
+			buildPhases = (
+				8D57630E048677EA00EA77CD /* Headers */,
+				8D57630F048677EA00EA77CD /* Resources */,
+				F42333D9082A61C6006437FB /* tmailモジュールをコピー */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+				8D576315048677EA00EA77CD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailSpool;
+			productInstallPath = /Library/Spotlight;
+			productName = MailSpool;
+			productReference = 8D576316048677EA00EA77CD /* MailSpool.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F4AD290C0859BEB900BBC451 /* Build configuration list for PBXProject "MailSpool" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* MailSpool */;
+			projectDirPath = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* MailSpool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+				C88FB7D8067446EC006EBB30 /* schema.xml in Resources */,
+				C88FB7E40674480E006EBB30 /* schema.strings in Resources */,
+				F45ED0B20828FBA20023CB6E /* GetMetadataForFile.rb in Resources */,
+				F4233426082A6422006437FB /* tmail.rb in Resources */,
+				F4328D2B082D05C600A674A8 /* ymhtml.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D576315048677EA00EA77CD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576312048677EA00EA77CD /* main.c in Sources */,
+				2C05A19C06CAA52B00D84F6F /* GetMetadataForFile.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C88FB7E30674480E006EBB30 /* schema.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88FB7DB0674470F006EBB30 /* English */,
+			);
+			name = schema.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AD29090859BEB900BBC451 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin8.0/";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Spotlight;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lruby";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MailSpool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = mdimporter;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		F4AD290A0859BEB900BBC451 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin8.0/";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Spotlight;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lruby";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MailSpool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = mdimporter;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F4AD290B0859BEB900BBC451 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Spotlight;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = MailSpool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = mdimporter;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		F4AD290D0859BEB900BBC451 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin8.0/";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		F4AD290E0859BEB900BBC451 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin8.0/";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		F4AD290F0859BEB900BBC451 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin8.0/";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AD29080859BEB900BBC451 /* Build configuration list for PBXNativeTarget "MailSpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD29090859BEB900BBC451 /* Development */,
+				F4AD290A0859BEB900BBC451 /* Deployment */,
+				F4AD290B0859BEB900BBC451 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F4AD290C0859BEB900BBC451 /* Build configuration list for PBXProject "MailSpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD290D0859BEB900BBC451 /* Development */,
+				F4AD290E0859BEB900BBC451 /* Deployment */,
+				F4AD290F0859BEB900BBC451 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

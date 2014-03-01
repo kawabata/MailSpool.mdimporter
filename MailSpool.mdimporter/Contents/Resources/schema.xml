@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<schema version="1.0" xmlns="http://www.apple.com/metadata"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd">
+    <note>
+        Schema for additional attributes supplied by the MailSpool importer
+    </note>
+    <attributes>
+        <attribute name="kMDItemAuthorEmailAddresses" multivalued="true" type="CFString"/>
+        <attribute name="kMDItemRecipientEmailAddresses" multivalued="true" type="CFString"/>
+    </attributes>
+
+    <types>
+		<type name="net.yoshidam.mail-spool">
+            <allattrs>
+                kMDItemAuthorEmailAddresses
+                kMDItemRecipientEmailAddresses
+            </allattrs>
+            <displayattrs>
+            </displayattrs>
+        </type>
+    </types>
+</schema>
+
