@@ -1,6 +1,6 @@
-# Mailspool importer for MacOS X spotlight
+# Mail Spool Importer for MacOS X Spotlight
 
-This is a source and programs for importing Mailspools into spotlight.
+This is a source and programs for importing Mail Spools into Spotlight.
 For details, please refer `README.en` included in this directory.
 
 ## Warning
